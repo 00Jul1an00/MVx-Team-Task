@@ -913,6 +913,14 @@
           <e p="com.unity.modules.xr@1.0.0" t="Include">
             <e p="package.json" t="Include" />
           </e>
+          <e p="com.unity.nuget.mono-cecil@1.11.4" t="Include">
+            <e p="package.json" t="Include" />
+            <e p="Tests" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Unity.Nuget.Mono-Cecil.EditorTests.asmdef" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="com.unity.performance.profile-analyzer@1.2.2" t="Include">
             <e p="Editor" t="Include">
               <e p="Analytics.cs" t="Include" />
@@ -4263,6 +4271,7 @@
       <e p="Temp\Bin" t="ExcludeRecursive" />
       <e p="Unity.CollabProxy.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.EditorCoroutines.Editor.csproj" t="IncludeRecursive" />
+      <e p="Unity.Nuget.Mono-Cecil.csproj" t="IncludeRecursive" />
       <e p="Unity.Performance.Profile-Analyzer.Editor.csproj" t="IncludeRecursive" />
       <e p="Unity.Performance.Profile-Analyzer.EditorTests.csproj" t="IncludeRecursive" />
       <e p="Unity.PlasticSCM.Editor.csproj" t="IncludeRecursive" />
